@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "128155610142",
+    "firebase_url": "https://proyecto1-b59eb-default-rtdb.firebaseio.com",
+    "project_id": "proyecto1-b59eb",
+    "storage_bucket": "proyecto1-b59eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128155610142:android:eb979eb08e284d6e87520f",
+        "android_client_info": {
+          "package_name": "com.ucundinamarca.pruebauno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128155610142-22hn23j94i1db4i2bph02pu6oh96g0as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-6wBNBxpHltn4_UIFuuR22Qu9prSTOw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128155610142-22hn23j94i1db4i2bph02pu6oh96g0as.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "128155610142-nlli3o93n3g2nnnb72anr7sh69cdabh9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ucundinamarca.pruebauno"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

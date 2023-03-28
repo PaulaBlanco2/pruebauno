@@ -6,6 +6,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/services.dart';
 import 'package:local_auth/auth_strings.dart';
+import 'package:pruebauno/View/Geoposition.dart';
 import '../DTO/User.dart';
 import 'Administrador.dart';
 import 'Invitado.dart';
@@ -131,11 +132,11 @@ class HomeStart extends State<Home> {
             actions: <Widget>[
               FloatingActionButton(
                 onPressed: () {
-                  Navigator.pop(context);
+                  //Navigator.pop(context);
                   if(objUser.rol=='administrador'){
-                    Navigator.push(context, MaterialPageRoute(builder: (_) => Administrador()));
+                    //Navigator.push(context, MaterialPageRoute(builder: (_) => Administrador()));
                   }else if(objUser.rol=='invitado'){
-                    Navigator.push(context, MaterialPageRoute(builder: (_) => Invitado()));
+                    //Navigator.push(context, MaterialPageRoute(builder: (_) => Invitado()));
                   }
                 },
                 child:
@@ -190,6 +191,9 @@ class HomeStart extends State<Home> {
                 padding: EdgeInsets.only(top: 20, left: 10, right: 10),
                 child: ElevatedButton(
                   onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (_) => Geoposition()));
+
                     pass.text = sha1.convert(utf8.encode(pass.text)).toString();
                     print('contrasena original ${pass.text}');
                     print('crypto SHA-1 :' + pass.text);

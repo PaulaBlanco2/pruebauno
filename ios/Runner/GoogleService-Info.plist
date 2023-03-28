@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>128155610142-nlli3o93n3g2nnnb72anr7sh69cdabh9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.128155610142-nlli3o93n3g2nnnb72anr7sh69cdabh9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCAiEH1_4OOYdZacRvJnkOHsMLmIKpysc0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>128155610142</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ucundinamarca.pruebauno</string>
+	<key>PROJECT_ID</key>
+	<string>proyecto1-b59eb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>proyecto1-b59eb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:128155610142:ios:b2c3e619bfb2528487520f</string>
+	<key>DATABASE_URL</key>
+	<string>https://proyecto1-b59eb-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
